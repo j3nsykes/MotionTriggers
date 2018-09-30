@@ -1,0 +1,6 @@
+This example requires adding four of your own soundfiles to the sketch.
+Either drag each sound file into the Processing sketch window
+OR
+create a data folder inside the sketch folder and add your sound files there.
+
+Soundfiles must be 16 but, 44,100 sample rate aif or wav format. 
