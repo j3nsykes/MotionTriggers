@@ -1,4 +1,8 @@
-
+/*
+This example shows how to use easing (lerping) to control animations
+Code provided by Jen Sykes
+getSensorInput() function referenced from Paul Maguire's data filtering structure
+*/
 
 
 import processing.serial.*;

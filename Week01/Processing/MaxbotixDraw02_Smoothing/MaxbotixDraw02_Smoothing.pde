@@ -1,4 +1,8 @@
-
+/*
+This example shows how to filter our incoming data, smooth it out and control it a little more. 
+Code provided by Jen Sykes
+getSensorInput() function referenced from Paul Maguire's data filtering structure
+*/
 
 
 import processing.serial.*;

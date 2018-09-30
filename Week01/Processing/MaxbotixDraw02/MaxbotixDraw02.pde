@@ -1,4 +1,7 @@
-
+/*
+This example shows how to trigger simple drawing methods with sensor data
+Code provided by Jen Sykes
+*/
 
 
 import processing.serial.*;

@@ -1,5 +1,9 @@
 
-
+/*
+This example shows how to re-scale or map the sensor data to other variables
+Code provided by Jen Sykes
+getSensorInput() function referenced from Paul Maguire's data filtering structure
+*/
 
 import processing.serial.*;
 

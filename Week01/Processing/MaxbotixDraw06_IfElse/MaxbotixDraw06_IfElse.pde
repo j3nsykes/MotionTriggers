@@ -1,4 +1,8 @@
-
+/*
+This example shows how to use if/else statements with sensor data
+Code provided by Jen Sykes
+getSensorInput() function referenced from Paul Maguire's data filtering structure
+*/
 import processing.serial.*;
 
 

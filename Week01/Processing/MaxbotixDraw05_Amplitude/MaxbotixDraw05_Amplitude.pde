@@ -1,4 +1,8 @@
-
+/*
+This example shows how to make linear sound changes from sensor data
+Code provided by Jen Sykes
+getSensorInput() function referenced from Paul Maguire's data filtering structure
+*/
 import processing.serial.*;
 import processing.sound.*;
 

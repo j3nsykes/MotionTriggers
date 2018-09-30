@@ -1,4 +1,8 @@
-
+/*
+This example shows how to trigger graphic animations with switch case statements
+Code provided by Jen Sykes
+getSensorInput() function referenced from Paul Maguire's data filtering structure
+*/
 import processing.serial.*;
 
 

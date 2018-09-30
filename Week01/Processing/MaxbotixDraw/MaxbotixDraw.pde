@@ -1,4 +1,8 @@
-
+/*
+Bare bones structure to get sensor data from Arduino into Processing
+Constructed from the Serial Library example SimpleRead
+Code provided by Jen Sykes
+*/
 
 
 import processing.serial.*;
