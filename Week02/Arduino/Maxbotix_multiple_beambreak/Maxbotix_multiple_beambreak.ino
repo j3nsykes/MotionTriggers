@@ -1,7 +1,7 @@
 /*
   Code written by Jen Sykes
   Triggers multiple sensors in differring combinations to imitate gesture.
-
+  (hand moving over sensors)
   Multiple Maxbotix Sensor reading adapted from
   code by Tom Bonar for testing
   Sensors being used for this code are the MB10X0 from MaxBotix
@@ -88,6 +88,7 @@ void beamBreak() {
 
 }
 
+//if need to add delay to actions use this function not delay() as this controls readings 
 void delayTime(int time) {
   int current = millis();
   while (millis () < current + time) yield();
@@ -96,6 +97,14 @@ void delayTime(int time) {
 void gestures() {
   //set your gestures here:
 
+  if ((!beam1) && (!beam2)) { //first 2 sensors triggered
+    state = 0;
+    beam1 = false;
+    beam2 = false;
+
+
+  }
+  
   if ((beam1) && (beam2)) { //first 2 sensors triggered
     state = 1;
     beam1 = false;
