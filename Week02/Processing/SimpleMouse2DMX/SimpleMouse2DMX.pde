@@ -10,6 +10,9 @@ Simplified Code provided by jen Sykes.
  
  Some DMX lights commands...
  Showtech Sunstrip:
+ channel = bulb
+ intensity 0-255
+ 
  
  Analog Dimmer Box:
  
